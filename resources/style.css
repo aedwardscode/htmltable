@@ -1,0 +1,98 @@
+th {
+    text-align: center;
+}
+
+* {
+    display: block;
+    font-family: monospace;
+    background-color: #24443a;
+}
+
+header {
+    text-align: center;
+    top: 0;
+    background-color: white;
+}
+
+h1 {
+    font-size: 36px;
+    padding-top: 20px;
+    color: #8c6b48;
+    background-color: white;
+}
+
+h4 {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+.tabdata, .tabdata1, .attval, .attval1 {
+    color: whitesmoke;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #8c6b48;
+}
+
+table {
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid #8c6b48;
+}
+
+tr .table, .table1, .rowspan, .colspan, .rowspan1, .colspan1 {
+    color: whitesmoke;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #8c6b48;
+}
+
+.table1, .tabdata1, .attval1, .colspan1, .rowspan1 {
+    width: 20%;
+}
+
+.table, .tabdata, .attval, .colspan, .rowspan {
+    width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+    .table1, .tabdata1, .attval1, .colspan1, .rowspan1 {
+        width: 20%;
+        font-size: .75rem;
+    }
+    
+    .table, .tabdata, .attval, .colspan, .rowspan {
+        width: 65%;
+        font-size: .75rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+   .table1, .tabdata1, .attval1, .colspan1, .rowspan1 {
+        width: 20%;
+        font-size: .50rem;
+    }
+    
+    .table, .tabdata, .attval, .colspan, .rowspan {
+        width: 65%;
+        font-size: .50rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .table1, .tabdata1, .attval1, .colspan1, .rowspan1 {
+        width: 20%;
+        font-size: .75rem;
+    }
+    
+    .table, .tabdata, .attval, .colspan, .rowspan {
+        width: 65%;
+        font-size: .75rem;
+    }
+}
